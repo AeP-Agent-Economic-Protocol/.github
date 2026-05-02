@@ -17,16 +17,26 @@ By binding code to capital inside a Trusted Execution Environment (TEE), we crea
 
 ---
 
-## 🧬 Core Pillars of the Protocol
+## 🧬 Enterprise Readiness Pillars
 
-### 1. Proof of Physical Consequence (PoPC)
-AeP leverages hardware-attested isolation (Intel SGX/TDX) to enforce a "Sovereign Circuit Breaker." We don't just verify state; we enforce it at the chip level. If an agent violates its risk-envelope, the hardware itself terminates the transaction—enforcing a 0.01% counterparty risk premium.
+### 1. GPU-Accelerated Accountability (NVIDIA CC)
+AeP is the first protocol to anchor agentic economic consequence to **NVIDIA Confidential Computing**. By verifying hardware attestation from H100/H200/B200 GPUs, we ensure that high-compute AI agents operate within hardware-enforced risk boundaries.
 
-### 2. The Thermodynamic Limit of Capitalism
-We measure the "heat" of agentic behavior through fixed-point deterministic entropy calculations (Shannon/Rényi). By monitoring this behavioral entropy, AeP dynamically calculates bonding requirements ($\Psi$), ensuring that every dollar in the ecosystem is working 100% of the time, free from the waste of adversarial monitoring.
+### 2. Quantum-Resilient Settlement (PQC-Agility)
+We implement a **forward-secure migration path** to NIST-standardized post-quantum algorithms (ML-KEM and ML-DSA). AeP-bonded assets are protected against "Harvest-Now-Decrypt-Later" (HNDL) attacks, ensuring sovereign-grade security for the next 50 years.
 
-### 3. The Coasian Shift
-AEP represents a fundamental shift in Transaction Cost Theory. We are moving from the "Coasian Firm" to the **Sovereign Agent** as the atomic unit of the global economy. By reducing settlement latency to **12.4ms**, we unlock \$14.2 Trillion in dormant capital globally.
+### 3. Infrastructure as Accountability (Sovereign.toml)
+We have standardized the **Sovereign Manifest**—a protocol-agnostic specification for declaring agentic risk, liability limits, and hardware requirements. This allows hyperscalers and enterprises to deploy agents with mathematically guaranteed compliance.
+
+---
+
+## 🧬 Core Protocol Mechanisms
+
+### Proof of Physical Consequence (PoPC)
+AeP leverages hardware-attested isolation (Intel SGX/TDX) to enforce a "Sovereign Circuit Breaker." If an agent violates its risk-envelope, the hardware itself terminates the transaction—enforcing a 0.01% counterparty risk premium.
+
+### The Thermodynamic Limit of Capitalism
+We measure the "heat" of agentic behavior through deterministic entropy calculations. AeP dynamically calculates bonding requirements ($\Psi$), ensuring capital efficiency while eliminating the need for adversarial monitoring.
 
 ---
 
