@@ -42,10 +42,10 @@ AeP is architected to scale the "Agentic GDP." Our simulations project a **24.2%
 ---
 
 ## ⚖️ Licensing
-AeP is built on transparency and audited by the **George Mason University SECSAT Lab**.
-- **Public Protocol**: Open source under **AGPL-3.0**.
-- **Institutional Audit**: Regulated by [Sovereign Audit Terms](LICENSE-ACADEMIC).
-- **Commercial**: Proprietary enclaves and production scaling require an [Enterprise Pass](COMMERCIAL_LICENSE.md).
+AeP maintains a tiered governance model to ensure protocol integrity and academic rigor.
+- **Open Source**: The protocol source code is public under [GNU Affero General Public License v3.0 (AGPL-3.0)](https://github.com/AeP-Agent-Economic-Protocol/aep-rust-core/blob/main/LICENSE).
+- **Institutional Audit**: Academic verification is currently restricted to the **George Mason University SECSAT Lab** under private sovereign audit terms.
+- **Commercial**: Proprietary enclave access and production-scale usage require an [Enterprise Pass](https://github.com/AeP-Agent-Economic-Protocol/aep-rust-core/blob/main/COMMERCIAL_LICENSE.md).
 
 ---
 
