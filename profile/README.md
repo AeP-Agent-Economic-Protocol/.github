@@ -1,64 +1,37 @@
-# Agent Economic Protocol (AeP)
-### *Securing the Post-Human Economy.*
+# Agent Economic Protocol (AeP) — AeP Labs
+### *Hardware-Enforced Runtime Containment & Complete Mediation for Autonomous AI*
 
-[![Audit: GMU SECSAT](https://img.shields.io/badge/Audit-GMU%20SECSAT-blue?style=for-the-badge)](https://github.com/AeP-Agent-Economic-Protocol/aep-rust-core)
-[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-red?style=for-the-badge)](https://github.com/AeP-Agent-Economic-Protocol/aep-rust-core/blob/main/LICENSE)
-[![Protocol: Sovereign](https://img.shields.io/badge/Protocol-Sovereign-gold?style=for-the-badge)](https://aep-labs.com)
+[![Audit: GMU SECSAT](https://img.shields.io/badge/Research%20Partner-GMU%20SECSAT%20Lab-blue?style=for-the-badge)](https://aep-labs.com)
+[![License: Apache-2.0 / BUSL-1.1](https://img.shields.io/badge/Open%20Core-Apache--2.0%20%7C%20BUSL--1.1-green?style=for-the-badge)](https://aep-labs.com)
+[![USPTO: Patent Pending](https://img.shields.io/badge/USPTO-Patent%20Pending%20(%23225171)-gold?style=for-the-badge)](https://aep-labs.com)
 
 ---
 
 > "A computer can never be held accountable, therefore a computer must never make a management decision."
 > — **IBM Presentation**, 1979
 
-## 📜 The AEP Thesis
-The IBM statement of 1979 defined the fundamental limitation of the Web2 era. In the age of legacy law, trust required a human neck to wring. As we move into the Agency Age, we solve this paradox not with legislation, but with **Physics**. 
+## 🛡️ Complete Mediation Architecture
+**AeP Labs** builds hardware-isolated runtime containment for autonomous AI agents operating across financial infrastructure, cloud APIs, and cyber-physical systems. Through **in-line complete mediation** inside commodity Trusted Execution Environments (**Intel TDX**, **AMD SEV-SNP**, **AWS Nitro Enclaves**) and embedded `#![no_std]` microcontrollers (**RP2350**), the agent's signing key is generated inside the enclave and never exported—requiring every proposed action to pass through a deterministic 128-bit fixed-point (`I64F64`) sequential risk monitor (`ALLOW`, `DENY`, `MODIFY`, `STEP_UP`, `DEFER`) in `<50 µs` before signing.
 
-By binding code to capital inside a Trusted Execution Environment (TEE), we create a digital entity that can suffer loss. **Trust requires consequence.** We engineer accountability by anchoring silicon intelligence to physical collateral.
-
----
-
-## 🧬 Enterprise Readiness Pillars
-
-### 1. GPU-Accelerated Accountability (NVIDIA CC)
-AeP is the first protocol to anchor agentic economic consequence to **NVIDIA Confidential Computing**. By verifying hardware attestation from H100/H200/B200 GPUs, we ensure that high-compute AI agents operate within hardware-enforced risk boundaries.
-
-### 2. Quantum-Resilient Settlement (PQC-Agility)
-We implement a **forward-secure migration path** to NIST-standardized post-quantum algorithms (ML-KEM and ML-DSA). AeP-bonded assets are protected against "Harvest-Now-Decrypt-Later" (HNDL) attacks, ensuring sovereign-grade security for the next 50 years.
-
-### 3. Infrastructure as Accountability (Sovereign.toml)
-We have standardized the **Sovereign Manifest**—a protocol-agnostic specification for declaring agentic risk, liability limits, and hardware requirements. This allows hyperscalers and enterprises to deploy agents with mathematically guaranteed compliance.
+Upon a behavioral invariant breach, the enclave zeroizes the volatile signing key in RAM (`<1 ms` cutoff target) and emits a hardware-signed **Proof of Physical Consequence (PoPC)** record binding pre-halt and post-halt state deltas to a fresh challenge nonce.
 
 ---
 
-## 🧬 Core Protocol Mechanisms
+## 🏛️ 3-Tier Open-Core Repository & Licensing Architecture
 
-### Proof of Physical Consequence (PoPC)
-AeP leverages hardware-attested isolation (Intel SGX/TDX) to enforce a "Sovereign Circuit Breaker." If an agent violates its risk-envelope, the hardware itself terminates the transaction—enforcing a 0.01% counterparty risk premium.
+All code repositories in the `AeP-Agent-Economic-Protocol` organization are currently maintained as **Private** pending USPTO Nonprovisional Omnibus filing confirmation, and are organized by licensing tier:
 
-### The Thermodynamic Limit of Capitalism
-We measure the "heat" of agentic behavior through deterministic entropy calculations. AeP dynamically calculates bonding requirements ($\Psi$), ensuring capital efficiency while eliminating the need for adversarial monitoring.
-
----
-
-## 📊 The Macro Impact
-AeP is architected to scale the "Agentic GDP." Our simulations project a **24.2% increase in global money velocity** by automating monetary policy for machine-native financial infrastructure.
-
-| Economy Type | Transaction Frequency | Money Velocity ($V$) |
-| :--- | :--- | :--- |
-| Legacy TradFi | Monthly/Weekly | $1.2 - 5.4$ |
-| Crypto (L1) | Minutes/Hours | $15 - 45$ |
-| **AEP (Sovereign)** | **Milliseconds** | **$480 - 1,200$** |
+| Tier | Repository | License | Scope & Components |
+| :--- | :--- | :--- | :--- |
+| **Tier 1: Open-Source Commons** | `aep-commons-apache` | **`Apache-2.0`** | Client SDKs (`sdk/python`, `sdk/typescript`), Multi-Cloud TEE Quote & PoPC Verifiers (`attestation-verifier`), Async Telemetry Server (`aep-telemetry-server`), Hardware TEE Driver Shims (`aep-tee-drivers`), and Reproducible Evaluation Suites. |
+| **Tier 2: Protocol Core & Risk Engine** | `aep-protocol-core-busl` | **`BUSL-1.1`** *(converts to `AGPL-3.0` on `2029-05-04`)* | `#![no_std]` `I64F64` Fixed-Point Filter Kernel (`aep-math-core`), Post-Quantum Keystore (`aep-core`), RFC 6962 Merkle Audit Journal (`aep-journal`), Complete Mediation MCP Server (`aep-mcp-server`), and Kani / `dudect` / Ghidra Verification Suites. Free for academic research, formal verification, and non-production security auditing. |
+| **Tier 3: Enterprise & Defense** | `aep-enterprise-enclave` | **Commercial Enterprise License** | Production `#![no_std]` Confidential VM Enclave Runtime (`aep-enclave`), `RP2350` Physical Power Interlock Firmware (`aep-firmware-rp2350`), Confidential Containers (CoCo) Trustee KBS Policies, PoPC Audit/Insurability Packs, and Enterprise SLAs (`$5,000–$8,000` per authority signing key / protected enclave per year). |
 
 ---
 
-## ⚖️ Licensing
-AeP maintains a tiered governance model to ensure protocol integrity and academic rigor.
-- **Open Source**: The protocol source code is public under [GNU Affero General Public License v3.0 (AGPL-3.0)](https://github.com/AeP-Agent-Economic-Protocol/aep-rust-core/blob/main/LICENSE).
-- **Institutional Audit**: Academic verification is currently restricted to the **George Mason University SECSAT Lab** under private sovereign audit terms.
-- **Commercial**: Proprietary enclave access and production-scale usage require an [Enterprise Pass](https://github.com/AeP-Agent-Economic-Protocol/aep-rust-core/blob/main/COMMERCIAL_LICENSE.md).
+## 📜 Patent Portfolio Notice (USPTO Customer #225171)
+AeP technology is patent-pending across **6 U.S. Provisional Patent Applications** (`63/939,634`; `63/940,806`; `63/948,978`; `63/948,999`; `63/962,519`; `63/999,618`), with the **U.S. Nonprovisional Omnibus Application** (`35 U.S.C. § 111(a)`) in preparation. Sole Inventor: **Stephen D. Smith**.
 
 ---
 
-> "We anchor digital intelligence to silicon, not government stability. Trust the math. Verify the hardware."
-
-[Website](https://aep-labs.com) • [Whitepaper](https://docs.aep-labs.com) • [Licensing](mailto:stephen@aep-labs.com)
+[Website](https://aep-labs.com) • [Enterprise & Academic Licensing](mailto:stephen@aep-labs.com)
