@@ -1,10 +1,10 @@
 # AeP Tiered Open-Core Licensing Architecture
 
-The **Agent Economic Protocol (AeP)** uses a **Tiered Open-Core Architecture**:
+The **Agent Economic Protocol (AeP)**, developed by **AeP Labs** (`5191 78th St Cir E, Bradenton, FL 34203` | SAM.gov UEI `Q4AXQU1JK7A7` | CAGE `1A8N0`), operates on a **3-Tier Open-Core Licensing Model**:
 
-1. **Tier 1 (`aep-commons-apache`)**: Licensed under **Apache License 2.0** (`LICENSE-APACHE`).
-2. **Tier 2 (`aep-protocol-core-busl`)**: Licensed under **Business Source License 1.1 (`BUSL-1.1`)**, converting to `AGPL-3.0` on `2029-05-04` (`LICENSE-BUSL`). Free for academic research, formal verification, and non-production security auditing.
-3. **Tier 3 (`aep-enterprise-enclave`)**: Licensed under **AeP Commercial Enterprise License** (`COMMERCIAL_LICENSE.md`) at `$5,000-$8,000` per authority signing key / protected enclave per year.
+1. **Tier 1 (Developer Commons & Verifiers)**: Licensed under **Apache License 2.0** (`LICENSE-APACHE`). The Section 3 patent grant is bounded strictly to Tier 1 client SDK and standalone quote/receipt verification works standing alone and grants zero implied patent license to Tier 2 or Tier 3 runtimes.
+2. **Tier 2 (Protocol Core & Risk Engine)**: Licensed under **Business Source License 1.1 (`BUSL-1.1`)** (`LICENSE-BUSL`). Free for accredited academic research, formal verification, benchmarking, and non-production security auditing.
+3. **Tier 3 (Enterprise Platform & Hardware Interlock)**: Licensed under **AeP Commercial Enterprise License** (`COMMERCIAL_LICENSE.md`) at `$5,000–$8,000` per authority signing key / protected enclave per year (`$50,000/yr` target 10-key pilots scaling to `$250,000+/yr` enterprise deployments; zero startup financial loss indemnification).
 
-Copyright (c) 2025-2026 AeP Labs (Stephen D. Smith). All Rights Reserved.
-Patent Pending (6 U.S. Provisional Applications, USPTO Customer #225171; Nonprovisional Omnibus Application in preparation).
+Sole Inventor & Copyright Owner: Stephen D. Smith (AeP Labs). All Rights Reserved.
+Patent Pending (6 U.S. Provisional Applications, USPTO Customer #225171; U.S. Nonprovisional Omnibus Application in preparation). Zero patent or background-IP licenses are granted absent an executed written agreement.
