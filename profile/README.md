@@ -1,4 +1,5 @@
 <div align="center">
+  <p><img src="https://avatars.githubusercontent.com/u/281187319?s=240&v=4" width="120" alt="AeP Labs shield logo"/></p>
   <h1>AeP Labs — AeP Sentinel</h1>
   <p><strong>Physical Safety Switch for Autonomous AI Agents</strong></p>
   <p><em>Solely conceived and authored by founder Stephen D. Smith (AeP Labs) · Patent Pending (USPTO Customer #225171) · SAM.gov Active (CAGE 1A8N0 · UEI Q4AXQU1JK7A7)</em></p>
